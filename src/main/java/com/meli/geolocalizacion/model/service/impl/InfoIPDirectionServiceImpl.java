@@ -18,7 +18,7 @@ public class InfoIPDirectionServiceImpl implements InfoIPDirectionService {
     @Value("${url.ip-direction-info-base}")
     private String urlInfoIPDirectionBase;
 
-    @Value("enabled-circuit-breaker")
+    @Value("${enabled-circuit-breaker}")
     private boolean enabledCircuitBreaker;
 
     @Autowired
