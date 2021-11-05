@@ -1,6 +1,15 @@
 # Compiled class file
 *.class
 
+.idea
+*.iml
+
+.mvn
+
+mvn*
+
+target/
+
 # Log file
 *.log
 
